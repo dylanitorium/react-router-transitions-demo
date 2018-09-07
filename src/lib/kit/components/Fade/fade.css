@@ -1,0 +1,68 @@
+.fade-enter-push {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.fade-enter-push-active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.fade-exit-push {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fade-exit-push-active {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.fade-enter-pop {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.fade-enter-pop-active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.fade-exit-pop {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fade-exit-pop-active {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+
+.fade-enter {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.fade-enter-active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.fade-exit {
+  z-index: 99;
+  visibility: visible;
+  opacity: 1;
+}
+
+.fade-exit-active {
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}

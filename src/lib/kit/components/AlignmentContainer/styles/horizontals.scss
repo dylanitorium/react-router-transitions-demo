@@ -1,0 +1,8 @@
+@import 'kit/sass/utils.scss';
+
+@each $alignment, $flex in $horizontals {
+  .#{$alignment} {
+    justify-content: $flex;
+  }
+}
+

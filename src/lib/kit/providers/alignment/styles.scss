@@ -1,0 +1,7 @@
+@import 'rrtd/view/utils/sass/utils.scss';
+
+@each $alignment, $flex in $horizontals {
+  .#{$alignment} {
+    text-align: #{$alignment};
+  }
+}

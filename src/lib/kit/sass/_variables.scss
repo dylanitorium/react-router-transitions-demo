@@ -1,0 +1,44 @@
+@import 'colors';
+
+$theme-colors: (
+  'danger': $danger,
+  'warning': $warning,
+  'success': $success,
+  'black': $black,
+  'gray': $gray,
+  'gray-light': $gray-light,
+  'white': $white,
+  'primary': $primary,
+  'google': $google,
+  'facebook': $facebook,
+);
+
+$sides: (
+  'top',
+  'right',
+  'bottom',
+  'left',
+);
+
+$horizontals: (
+  'left': flex-start,
+  'center': center,
+  'right': flex-end,
+  'space-between': space-between,
+);
+
+$verticals: (
+  'top': flex-start,
+  'center': center,
+  'bottom': flex-end,
+);
+
+$displays: (
+  'inline',
+  'inline-block',
+  'block',
+  'none',
+);
+
+$font-weight-normal: 300;
+$font-family: 'Source Sans Pro', sans-serif;

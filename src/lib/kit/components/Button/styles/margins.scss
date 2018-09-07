@@ -1,0 +1,7 @@
+@import 'kit/sass/utils.scss';
+
+@each $side in $sides {
+  .#{$side} {
+    margin-#{$side}: 1.25rem;
+  }
+}
