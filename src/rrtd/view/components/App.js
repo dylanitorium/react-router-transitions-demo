@@ -6,7 +6,10 @@ import { Main } from 'rrtd/view/components/layouts';
 import { actions as historyActions } from 'rrtd/state/modules/history';
 import createHistory from 'history/createBrowserHistory';
 
-const history = createHistory();
+const history = createHistory({
+  basename: process.env.PUBLIC_URL,
+});
+
 store.dispatch(historyActions.listen(history));
 
 export default () => (
